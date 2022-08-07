@@ -37,11 +37,14 @@
     .topicos__link{
         font-size: 24px;
     }
+
+    .topicos__link{
+        transition-delay: 1ms;
+        transition-duration: 750ms;
+    }
     
     .topicos__item:hover > .topicos__link{
         border-radius: 24px;
-        transition-delay: 1ms;
-        transition-duration: 750ms;
     }
 
     .topicos__lista{
